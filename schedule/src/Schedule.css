@@ -1,0 +1,39 @@
+
+.button-style {
+    margin: 10px;
+    width: 200px;
+   }
+
+.scroll {
+    max-height: 200px;
+    max-width: 96%;
+    overflow-y: auto;
+    margin: 20px;
+}
+
+.container-header {
+    font-family: Montserrat;
+    font-style: normal;
+    margin: 30px;
+    padding: 20px;
+    background: linear-gradient(to right, #1E90FF, #0000CD);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+   }
+
+.container {
+    min-width: 850px;
+}
+
+@media (max-width: 800px){
+    .small-table {
+        font-size: small;
+    }
+    .button-style {
+        margin: 10px;
+        width: 150px;
+       }
+
+}
