@@ -2,7 +2,7 @@
 from flask import Flask, request, render_template
 import json
 import pprint
-from parse import parseSchedule, currentWeek
+from parse import parseSchedule, currentWeek, parseGroups, parseTeachers
 from flask_cors import CORS, cross_origin
 
 
@@ -100,4 +100,8 @@ def getCurrentWeek():
 
  
 if __name__ == '__main__':
+    # если захочится спарсить в реальном времени
+    # parseGroups()
+    # parseTeachers()
+    
     app.run()
